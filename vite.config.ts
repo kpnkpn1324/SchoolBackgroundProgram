@@ -16,5 +16,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    open: false  // ← 추가: 브라우저 자동 열기 방지
+  }
 
 });
